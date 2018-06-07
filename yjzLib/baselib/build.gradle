@@ -45,7 +45,7 @@ dependencies {
     //网页查看数据库
     debugCompile 'com.amitshekhar.android:debug-db:1.0.0'
     //log
-    implementation 'com.orhanobut:logger:2.2.0'
+    compile 'com.orhanobut:logger:2.2.0'
 
     //内存泄漏检测工具
     debugCompile 'com.squareup.leakcanary:leakcanary-android:1.5'
