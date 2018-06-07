@@ -5,13 +5,13 @@ import com.orhanobut.logger.AndroidLogAdapter;
 import com.orhanobut.logger.FormatStrategy;
 import com.orhanobut.logger.Logger;
 import com.orhanobut.logger.PrettyFormatStrategy;
+import com.scwang.smartrefresh.layout.SmartRefreshLayout;
 
 /**
  * Created by yujinzhao on 18/6/7.
  */
 
 public class ApplicationI extends BaseApplication{
-
 
     @Override
     public void onCreate() {

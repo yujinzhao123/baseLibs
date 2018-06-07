@@ -1,3 +1,12 @@
 <resources>
-    <string name="app_name">baseLib</string>
+    <string name="app_name">甘霖农服</string>
+    <string name="weather">气象</string>
+    <string name="dir_all_pictures">/所有图片</string>
+    <string name="complete">完成</string>
+    <string name="chose_at_most">最多选择</string>
+    <string name="sheet">张</string>
+    <string name="all_picture">所有图片</string>
+    <string name="rationale_camera">请打开照相机权限</string>
+    <string name="rationale_red_storage">请打文件访问权限</string>
+
 </resources>
