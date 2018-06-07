@@ -50,12 +50,11 @@ public class BaseApplication extends MultiDexApplication {
     public void onCreate() {
         super.onCreate();
         Utils.init(this);
-        initLeak();
         initLogger();
     }
 
     //内存泄漏检测
-    private void initLeak() {
+    protected void initLeak() {
         if (LeakCanary.isInAnalyzerProcess(this)) {//1
             // This process is dedicated to LeakCanary for heap analysis.
             // You should not init your app in this process.
